@@ -1,0 +1,57 @@
+:root {
+    --buttoncolor: #1A659E;
+    --beigecolor: #efefd0;
+    --white: #ffffff;
+  }
+
+ *{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ } 
+
+header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: var(--beigecolor);
+    flex-wrap: wrap;
+    border-bottom: 5px dashed black;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.button {
+    position: relative;
+    left: 90%;
+    border: none;
+    background-color: var(--buttoncolor);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+main{
+    display: flex;
+}
+
+#timeandrules{
+    position: relative;
+    left: 80%;
+    padding-top: 20px;
+}
+
+footer{
+    background-color: var(--beigecolor);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
