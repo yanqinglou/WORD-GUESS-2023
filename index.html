@@ -10,19 +10,24 @@
   <body>
     <header>
       <h1>Guess Words</h1>
-      <button class="button">Start</button>
+      <button class="startbutton">Start</button>
     </header>
     <main>
       <div id="wordSection">
-        <h1 id="wordinGame"></h1>
-        
+        <div id="wordinGame">
+        </div>
+        <button class = 'nextbutton'>Next</button>
         <p id="answer"></p>
         <p id="corw"></p>
       </div>
       <section id="timeandrules">
         <div id="timeSection">
-          <h3>TIME LEFT</h3>
+          <h3 id="timeLeft">TIME LEFT</h3>
           <h3 id="countDown">10s</h3>
+        </div>
+        <div id="scoreSection">
+          <h3>You Score</h3>
+          <h3 id="currentScore"></h3>
         </div>
         <div id="rulesSection">
           <h3>RULES</h3>

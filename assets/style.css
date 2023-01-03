@@ -1,7 +1,6 @@
 :root {
     --buttoncolor: #1A659E;
     --beigecolor: #efefd0;
-    --white: #ffffff;
   }
 
  *{
@@ -23,7 +22,7 @@ h1 {
 
 }
 
-.button {
+.startbutton {
     position: relative;
     left: 90%;
     border: none;
@@ -39,16 +38,72 @@ h1 {
     cursor: pointer;
   }
 
+.nextbutton {
+    border: none;
+    background-color: var(--buttoncolor);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 60px;
+  }
+
 main{
     display: flex;
+    padding-bottom: 20px;
+}
+
+#wordSection{
+    display: flex;
+    width: 70%;
+}
+
+#wordinGame{
+    display: flex;
+    padding: 20px;
+}
+
+#wordh1{
+    text-align: center;
+    padding:10px;
 }
 
 #timeandrules{
-    position: relative;
-    left: 80%;
-    padding-top: 20px;
+    width: 30%;
+    margin:10px;
+    background-color: var(--buttoncolor);
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
+#timeSection{
+    padding:10px;
+    border: 1px dashed black;
+}
+
+#timeLeft{
+    padding: 10px;
+}
+
+#scoreSection{
+    padding:10px;
+    border: 1px dashed black;
+}
+#scoreSection h3{
+    padding: 10px;
+}
+
+
+#rulesSection{
+    background-color: var(--buttoncolor);
+    padding:10px;
+    margin-left: 20px;
+    border: 1px dashed black;
+}
 footer{
     background-color: var(--beigecolor);
     text-align: center;
